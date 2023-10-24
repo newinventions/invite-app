@@ -1,0 +1,34 @@
+<div class="bckgrndImg">
+    <div class="blocked">
+        <p>&nbsp;</p>
+    </div>
+    <div class="pName">
+        <p>{{ miHostName }}</p>
+    </div>
+    <div class="eventName">
+        <p>{{ miEventName }}</p>
+    </div>
+    <table class="timeCounter" *ngIf="this.timer.time.days > -2">
+        <tr>
+            <td><div class="counter">{{ timer.time.days }}</div></td>
+            <td><div class="colon">:</div></td>
+            <td><div class="counter">{{ timer.time.hours }}</div></td>
+            <td><div class="colon">:</div></td>
+            <td><div class="counter">{{ timer.time.minutes }}</div></td>
+            <td><div class="colon">:</div></td>
+            <td><div class="counter">{{ timer.time.seconds }}</div></td>
+        </tr>
+        <tr>
+            <td><div class="counterTitle">{{ miDays }}</div></td>
+            <td>&nbsp;</td>
+            <td><div class="counterTitle">{{ miHours }}</div></td>
+            <td>&nbsp;</td>
+            <td><div class="counterTitle">{{ miMinutes }}</div></td>
+            <td>&nbsp;</td>
+            <td><div class="counterTitle">{{ miSeconds }}</div></td>
+        </tr>
+    </table>
+    <div class="timeOverMsg">
+        <p>{{ message }}</p>
+    </div>
+</div>

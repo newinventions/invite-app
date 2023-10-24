@@ -1,0 +1,28 @@
+#abMusicOn {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    width: 45px;
+    height: 45px;
+    background-color: #4575de;
+    border: none;
+}
+#abMusicOff {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    width: 45px;
+    height: 45px;
+    background-color: #4575de;
+    border: none;
+}
+#musicOn {
+    position: absolute;
+    top: 18%;
+    left: -2%;
+}
+#musicOff {
+    position: absolute;
+    top: 20%;
+    left: 18%;
+}

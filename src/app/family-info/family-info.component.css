@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English|Happy+Monkey|Capriola');
+.fiHeader {
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.fiText {
+    font-family: IM Fell English, serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+.name {
+    font-family: Happy Monkey, serif;
+    font-size: 12px;
+    padding-top: 10px;
+    margin-bottom: 1px;
+}
+.field {
+    font-family: Capriola, serif;
+    font-size: 12px;
+}
+.fiPhotos {
+    text-align: center;
+}
+.familyPhoto {
+    padding-bottom: 25px;
+}
+.dadPhoto {
+    content: url('../../assets/family-info/dadFace.jpg');
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    box-shadow: 2px 4px 7px #ddd;
+}
+.momPhoto {
+    content: url('../../assets/family-info/momFace.jpg');
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    box-shadow: 2px 4px 7px #ddd;
+}
+.petsPhoto {
+    content: url('../../assets/family-info/petFaces.jpg');
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    box-shadow: 2px 4px 7px #ddd;
+}
+@media all and (max-width: 413px) and (min-width: 270px) {
+    .fiHeader {
+        padding-top: 1px;
+        margin-top: 0px;
+        margin-bottom: 85px;
+    }
+    .fiText {
+        position: absolute;
+        width: 100%;
+    }
+    .fiTitle {
+        padding: 30px 0px 0px 0px;
+    }
+    .fiImgLeft {
+        float: left;
+        content: url('../../assets/family-info/08FamilyInfoLeft_Small.png');
+        padding: 13px 0px 0px 5px;
+    }
+    .fiImgRight {
+        float: right;
+        content: url('../../assets/family-info/08FamilyInfoRight_Small.png');
+        margin-right: 5px;
+        padding: 35px 0px 0px 0px;
+    }
+}
+@media all and (max-width: 519px) and (min-width: 414px) {
+    .fiHeader {
+        padding-top: 1px;
+        margin-top: 0px;
+        margin-bottom: 140px;
+    }
+    .fiText {
+        font-size: 40px;
+        position: absolute;
+        width: 100%;
+    }
+    .fiTitle {
+        padding: 60px 0px 0px 0px;
+    }
+    .name {
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+    .field {
+        font-size: 13px;
+    }
+    .fiImgLeft {
+        float: left;
+        content: url('../../assets/family-info/08FamilyInfoLeft.png');
+        margin-left: 0px;
+        margin-bottom: 20px;
+        padding: 0px 0px 0px 20px;
+    }
+    .fiImgRight {
+        float: right;
+        content: url('../../assets/family-info/08FamilyInfoRight.png');
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 45px 0px 0px 0px;
+    }
+    .familyPhoto {
+        padding-bottom: 30px;
+    }
+    .dadPhoto {
+        width: 225px;
+        height: 225px;
+    }
+    .momPhoto {
+        width: 225px;
+        height: 225px;
+    }
+    .petsPhoto {
+        width: 225px;
+        height: 225px;
+    }
+}
+@media all and (max-width: 699px) and (min-width: 520px) {
+    .fiHeader {
+        padding-top: 1px;
+        margin-top: 0px;
+        margin-bottom: 140px;
+    }
+    .fiText {
+        font-size: 40px;
+        position: absolute;
+        width: 100%;
+    }
+    .fiTitle {
+        padding: 60px 0px 0px 0px;
+    }
+    .name {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .field {
+        font-size: 14px;
+    }
+    .fiImgLeft {
+        float: left;
+        content: url('../../assets/family-info/08FamilyInfoLeft.png');
+        margin-left: 0px;
+        margin-bottom: 20px;
+        padding: 0px 0px 0px 20px;
+    }
+    .fiImgRight {
+        float: right;
+        content: url('../../assets/family-info/08FamilyInfoRight.png');
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 45px 0px 0px 0px;
+    }
+    .familyPhoto {
+        padding-bottom: 40px;
+    }
+    .dadPhoto {
+        width: 250px;
+        height: 250px;
+    }
+    .momPhoto {
+        width: 250px;
+        height: 250px;
+    }
+    .petsPhoto {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media all and (max-width: 1114px) and (min-width: 700px) {
+    .fiHeader {
+        padding-top: 1px;
+        margin-top: 0px;
+        margin-bottom: 140px;
+    }
+    .fiText {
+        font-size: 45px;
+        position: absolute;
+        width: 100%;
+    }
+    .fiTitle {
+        padding: 60px 0px 0px 0px;
+    }
+    .name {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+    .field {
+        font-size: 15px;
+    }
+    .fiImgLeft {
+        float: left;
+        content: url('../../assets/family-info/08FamilyInfoLeft.png');
+        margin-left: 0px;
+        margin-bottom: 20px;
+        padding: 0px 0px 0px 20px;
+    }
+    .fiImgRight {
+        float: right;
+        content: url('../../assets/family-info/08FamilyInfoRight.png');
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 45px 0px 0px 0px;
+    }
+    .familyPhoto {
+        margin-left: 2em;
+        margin-right: 2em;
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 20px 0px 60px 0px;
+    }
+    .dadPhoto {
+        width: 250px;
+        height: 250px;
+    }
+    .momPhoto {
+        width: 250px;
+        height: 250px;
+    }
+    .petsPhoto {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media all and (max-width: 1224px) and (min-width: 1115px) {
+    .fiHeader {
+        padding-top: 1px;
+        margin-top: 0px;
+        margin-bottom: 140px;
+    }
+    .fiText {
+        font-size: 50px;
+        position: absolute;
+        width: 100%;
+    }
+    .fiTitle {
+        padding: 60px 0px 0px 0px;
+    }
+    .name {
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+    .field {
+        font-size: 16px;
+    }
+    .fiImgLeft {
+        float: left;
+        content: url('../../assets/family-info/08FamilyInfoLeft.png');
+        margin-left: 0px;
+        margin-bottom: 20px;
+        padding: 0px 0px 0px 20px;
+    }
+    .fiImgRight {
+        float: right;
+        content: url('../../assets/family-info/08FamilyInfoRight.png');
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 45px 0px 0px 0px;
+    }
+    .familyPhoto {
+        margin-left: 3.5em;
+        margin-right: 3.5em;
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 50px 0px 130px 0px;
+    }
+    .dadPhoto {
+        width: 250px;
+        height: 250px;
+    }
+    .momPhoto {
+        width: 250px;
+        height: 250px;
+    }
+    .petsPhoto {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media all and (min-width: 1225px) {
+    .fiHeader {
+        padding-top: 1px;
+        margin-top: 0px;
+        margin-bottom: 140px;
+    }
+    .fiText {
+        font-size: 50px;
+        position: absolute;
+        width: 100%;
+    }
+    .fiTitle {
+        padding: 60px 0px 0px 0px;
+    }
+    .name {
+        font-size: 16px;
+        margin-bottom: 7px;
+    }
+    .field {
+        font-size: 16px;
+    }
+    .fiImgLeft {
+        float: left;
+        content: url('../../assets/family-info/08FamilyInfoLeft.png');
+        margin-left: 0px;
+        margin-bottom: 20px;
+        padding: 0px 0px 0px 20px;
+    }
+    .fiImgRight {
+        float: right;
+        content: url('../../assets/family-info/08FamilyInfoRight.png');
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 45px 0px 0px 0px;
+    }
+    .familyPhoto {
+        margin-left: 5em;
+        margin-right: 5em;
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 50px 0px 130px 0px;
+    }
+    .dadPhoto {
+        width: 250px;
+        height: 250px;
+    }
+    .momPhoto {
+        width: 250px;
+        height: 250px;
+    }
+    .petsPhoto {
+        width: 250px;
+        height: 250px;
+    }
+}
