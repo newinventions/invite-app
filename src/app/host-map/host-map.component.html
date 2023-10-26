@@ -1,0 +1,29 @@
+<h1 mat-dialog-title>{{ title }}</h1>
+<hr>
+<mat-dialog-content align="left">
+    <div class="fullMap" id="map">
+    </div>
+    <div class="hostName">
+        <h2>{{ hosting }}</h2>
+    </div>
+    <div class="hostWhen">
+        <p>
+            <span class="bText">{{ when }}</span>
+            <span class="sText"> {{ whenData }}</span>
+        </p>
+    </div>
+    <div class="hostWhere">
+        <p>
+            <span class="bText">{{ where }}</span>
+            <span class="sText"> {{ whereData }}</span>
+        </p>
+    </div>
+</mat-dialog-content>
+<hr>
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close (focus)="true">
+        <div class="close">
+            {{ closeButton }}
+        </div>
+    </button>
+</mat-dialog-actions>

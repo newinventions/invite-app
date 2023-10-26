@@ -1,0 +1,85 @@
+<div class="wwiHeader">
+    <div class="wwiImgLeft"></div>
+    <div class="wwiText"><p class="wwiTitle">{{ wwInfoTitle }}</p></div>
+    <div class="wwiImgRight"></div>
+</div>
+<div class="wwInfo">
+    <div class="info">
+        <h2 class="massTitle">{{ churchTitle }}</h2>
+        <div class="massPic"></div>
+        <div>
+            <h3 class="massPlaceName">{{ churchName }}</h3>
+        </div>
+        <div class="massWhen">
+            <p>
+                <span class="bText">{{ when }}</span>
+                <span class="sText"> {{ churchWhen }}</span>
+            </p>
+        </div>
+        <div class="massAddress">
+            <p>
+                <span class="bText">{{ where }}</span>
+                <span class="sText"> {{ churchWhere }}</span>
+            </p>
+        </div>
+        <span class="buttomMap">
+            <button mat-flat-button (click)="openMassDialog()">
+                <div class="buttonText">
+                    {{ mapButton }}
+                </div>
+            </button>
+        </span>
+        <span class="calendar">
+            <button mat-flat-button (click)="showMassMenu()">
+                <div class="buttonText">
+                    {{ calButton }}
+                </div>
+            </button>
+        </span>
+        <div id="massDropdown" class="dropdown-content">
+            <a role="button" (click)="getMassICSFile()">{{ op1 }}</a>
+            <a href="{{ getMassGoogleLink() }}" target="_blank">{{ op2 }} <span class="online">{{ online }}</span></a>
+            <a href="{{ getMassOutlookLink() }}" target="_blank">{{ op1 }} <span class="online">{{ online }}</span></a>
+            <a href="{{ getMassYahooLink() }}" target="_blank">{{ op3 }} <span class="online">{{ online }}</span></a>
+        </div>
+    </div>
+    <div class="info">
+        <h2 class="hostingTitle">{{ hostTitle }}</h2>
+        <div class="hostingPic"></div>
+        <div>
+            <h3 class="hostingPlaceName">{{ hostingName }}</h3>
+        </div>
+        <div class="hostingWhen">
+            <p>
+                <span class="bText">{{ when }}</span>
+                <span class="sText"> {{ hostWhen }}</span>
+            </p>
+        </div>
+        <div class="hostingAddress">
+            <p>
+                <span class="bText">{{ where }}</span>
+                <span class="sText"> {{ hostWhere }}</span>
+            </p>
+        </div>
+        <span class="buttomMap">
+            <button mat-flat-button (click)="openHostDialog()">
+                <div class="buttonText">
+                    {{ mapButton }}
+                </div>
+            </button>
+        </span>
+        <span class="calendar">
+            <button mat-flat-button (click)="showHostingMenu()">
+                <div class="buttonText">
+                    {{ calButton }}
+                </div>
+            </button>
+        </span>
+        <div id="hostingDropdown" class="dropdown-content">
+            <a role="button" (click)="getHostingICSFile()">{{ op1 }}</a>
+            <a href="{{ getHostingGoogleLink() }}" target="_blank">{{ op2 }} <span class="online">{{ online }}</span></a>
+            <a href="{{ getHostingOutlookLink() }}" target="_blank">{{ op1 }} <span class="online">{{ online }}</span></a>
+            <a href="{{ getHostingYahooLink() }}" target="_blank">{{ op3 }} <span class="online">{{ online }}</span></a>
+        </div>
+    </div>
+</div>

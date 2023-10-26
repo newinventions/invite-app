@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Rubik+Distressed|Fredericka+the+Great');
+
+.bckgrndImg {
+    height: 590px;
+    background-image: url("../../assets/frontLow.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position-x: center;
+}
+.pName {
+    margin-top: 400px;
+    text-align: center;
+    font-family: Amatic SC, serif;
+    font-size: 22px;
+    letter-spacing: 0.3em;
+    color: white;
+}
+.eventName {
+    margin-top: 30px;
+    text-align: center;
+    font-family: Fredericka the Great, serif;
+    font-size: 30px;
+    color: white;
+}
+.counter {
+    text-align: center;
+    font-family: Fredericka the Great, serif;
+    font-size: 20px;
+    color: white;
+}
+.colon {
+    text-align: center;
+    font-family: Fredericka the Great, serif;
+    font-size: 7px;
+    color: white;
+}
+.counterTitle {
+    margin-top: 5px;
+    text-align: center;
+    font-family: Fredericka the Great, serif;
+    font-size: 10px;
+    color: white;
+}
+.timeCounter {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    table-layout: fixed;
+    width: 270px;
+}
+.timeOverMsg {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Amatic SC, serif;
+    font-size: 20px;
+    color: white;
+}
+@media all and (max-width: 519px) and (min-width: 414px) {
+    .bckgrndImg {
+        height: 680px;
+    }
+    .pName {
+        margin-top: 425px;
+        letter-spacing: 0.3em;
+        font-size: 25px;
+    }
+    .eventName {
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    .counter {
+        font-size: 27px;
+    }
+    .colon {
+        font-size: 9px;
+    }
+    .counterTitle {
+        margin-top: 16px;
+        font-size: 13px;
+    }
+    .timeCounter {
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 20px;
+        table-layout: fixed;
+        width: 400px;
+    }
+    .timeOverMsg {
+        margin-top: 22px;
+        font-size: 22px;
+        line-height: 22px;
+    }
+}
+@media all and (max-width: 699px) and (min-width: 520px) {
+    .bckgrndImg {
+        height: 725px;
+    }
+    .pName {
+        margin-top: 450px;
+        letter-spacing: 0.3em;
+        font-size: 35px;
+    }
+    .eventName {
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    .counter {
+        font-size: 32px;
+    }
+    .colon {
+        font-size: 11px;
+    }
+    .counterTitle {
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .timeCounter {
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 25px;
+        table-layout: fixed;
+        width: 410px;
+    }
+    .timeOverMsg {
+        margin-top: 32px;
+        font-size: 32px;
+        line-height: 30px;
+    }
+}
+@media all and (max-width: 1000px) and (min-width: 700px) {
+    .bckgrndImg {
+        height: 850px;
+    }
+    .pName {
+        margin-top: 500px;
+        letter-spacing: 0.3em;
+        font-size: 40px;
+    }
+    .eventName {
+        margin-top: 70px;
+        font-size: 63px;
+    }
+    .counter {
+        font-size: 50px;
+    }
+    .colon {
+        font-size: 17px;
+    }
+    .counterTitle {
+        margin-top: 35px;
+        font-size: 23px;
+    }
+    .timeCounter {
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 50px;
+        table-layout: fixed;
+        width: 600px;
+    }
+    .timeOverMsg {
+        margin-top: 36px;
+        font-size: 36px;
+        line-height: 35px;
+    }
+}
+@media all and (min-width: 1001px) {
+    .bckgrndImg {
+        height: 950px;
+        background-size: 1300px;
+        background-position: center 1750px;
+    }
+    .pName {
+        margin-top: 550px;
+        letter-spacing: 0.3em;
+        font-size: 50px;
+    }
+    .eventName {
+        margin-top: 80px;
+        font-size: 80px;
+    }
+    .counter {
+        font-size: 60px;
+    }
+    .colon {
+        font-size: 20px;
+    }
+    .counterTitle {
+        margin-top: 38px;
+        font-size: 30px;
+    }
+    .timeCounter {
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 50px;
+        table-layout: fixed;
+        width: 800px;
+    }
+    .timeOverMsg {
+        margin-top: 45px;
+        font-size: 45px;
+        line-height: 45px;
+    }
+}

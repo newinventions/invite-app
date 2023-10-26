@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'invite-app';
+  amWhereWhen:string = "Dónde & Cuándo";
+  amPhotos:string = "Mis Fotos";
+  amFamily:string = "Mi Familia";
+  amVideo:string = "Ver Video";
+  amMessage:string = "Mensaje";
 }

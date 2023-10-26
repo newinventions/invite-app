@@ -1,0 +1,14 @@
+<div class="psHeader">
+    <div class="psImgLeft"></div>
+    <div class="psText"><p class="psTitle">{{ psTitle }}</p></div>
+    <div class="psImgRight"></div>
+</div>
+<div class="psCarousel">
+    <owl-carousel-o [options]="customOptions" (translated)="getPassedData($event)">
+        <ng-container *ngFor="let slide of slideStore">
+            <ng-template carouselSlide [width]="420" [id]="slide.id">
+                <img class="psImgCar" [src]="slide.src">
+            </ng-template>
+        </ng-container>
+    </owl-carousel-o>
+</div>

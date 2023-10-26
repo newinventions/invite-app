@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Rubik+Distressed|Fredericka+the+Great');
+.ei-bckgroundImg {
+    height: 590px;
+    background-image: url("../../assets/ending-info/byeLow.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position-x: center;
+}
+.ei-text {
+    text-align: center;
+    color: white;
+    padding-top: 450px;
+}
+.ei-babyName {
+    font-family: Amatic SC, serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #414141;
+}
+.ei-message {
+    font-family: Fredericka the Great, serif;
+    font-size: 24px;
+    line-height: 25px;
+}
+@keyframes morph {
+    0% { background-color: red; }
+    10% { background-color: aqua; }
+    20% { background-color: darkviolet ; }
+    30% { background-color: green; }
+    40% { background-color: bisque; }
+    50% { background-color: fuchsia; }
+    60% { background-color: blue; }
+    70% { background-color: gold; }
+    80% {background-color: brown;}
+    90% { background-color: lime; }
+    100% { background-color: red; }
+}
+.ei-graySection {
+    height: 15px;
+    animation: morph 40s infinite;
+}
+@media all and (max-width: 519px) and (min-width: 414px) {
+    .ei-bckgroundImg {
+        height: 680px;
+    }
+    .ei-text {
+        padding-top: 500px;
+    }
+    .ei-babyName {
+        font-size: 22px;
+        letter-spacing: 4px;
+        margin-bottom: 15px;
+    }
+    .ei-message {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}
+@media all and (max-width: 699px) and (min-width: 520px) {
+    .ei-bckgroundImg {
+        height: 725px;
+    }
+    .ei-text {
+        padding-top: 550px;
+    }
+    .ei-babyName {
+        font-size: 28px;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+    }
+    .ei-message {
+        font-size: 40px;
+        line-height: 42px;
+    }
+}
+@media all and (max-width: 1000px) and (min-width: 700px) {
+    .ei-bckgroundImg {
+        height: 850px;
+    }
+    .ei-text {
+        padding-top: 650px;
+    }
+    .ei-babyName {
+        font-size: 34px;
+        letter-spacing: 6px;
+        margin-bottom: 25px;
+    }
+    .ei-message {
+        font-size: 58px;
+        line-height: 58px;
+    }
+}
+@media all and (max-width: 1652px) and (min-width: 1001px) {
+    .ei-bckgroundImg {
+        height: 920px;
+        background-size: 1270px;
+        background-position: center 1700px;
+    }
+    .ei-text {
+        padding-top: 700px;
+    }
+    .ei-babyName {
+        font-size: 40px;
+        letter-spacing: 7px;
+        margin-bottom: 25px;
+    }
+    .ei-message {
+        font-size: 80px;
+        line-height: 80px;
+    }
+}
+@media all and (min-width: 1653px) {
+    .ei-bckgroundImg {
+        height: 950px;
+        background-size: 1300px;
+        background-position: center 1750px;
+    }
+    .ei-text {
+        padding-top: 730px;
+    }
+    .ei-babyName {
+        font-size: 40px;
+        letter-spacing: 7px;
+        margin-bottom: 25px;
+    }
+    .ei-message {
+        font-size: 80px;
+        line-height: 80px;
+    }
+}

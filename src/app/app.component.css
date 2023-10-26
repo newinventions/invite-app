@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Capriola');
+.imgHeader {
+    display: flex;
+    justify-content: center;
+}
+.imgCenter {
+    float:left;
+    content: url('../assets/header/02headerCastle_105.png');
+}
+.imgRight {
+    padding: 0px 25px 0px 0px;
+}
+.header {
+    position: absolute;
+    padding: 20px 20px 10px 10px;
+    right: 0%;
+}
+.headerMenu {
+    border: 0px;
+    background-color: white;
+}
+.menuItem {
+    font-family: 'Capriola', serif;
+    font-size: 10px;
+}
+.mainInfo {
+    padding: 1px 0px 0px 0px;
+}
+@media all and (max-width: 399px) and (min-width: 270px) {
+    .imgLeft {
+        float:left;
+        content: url('../assets/header/02headerLeft_300_400.png');
+    }
+    .imgRight {
+        float:left;
+        content: url('../assets/header/02headerRight_300_400.png');
+        padding: 0px 38px 0px 0px;
+    }
+}
+@media all and (max-width: 499px) and (min-width: 400px) {
+    .imgLeft {
+        float:left;
+        content: url('../assets/header/02headerLeft_300.png');
+    }
+    .imgRight {
+        float:left;
+        content: url('../assets/header/02headerRight_300.png');
+        padding: 0px 30px 0px 0px;
+    }
+}
+@media all and (max-width: 639px) and (min-width: 500px) {
+    .imgLeft {
+        float:left;
+        content: url('../assets/header/02headerLeft_400x500.png');
+    }
+    .imgRight {
+        float:left;
+        content: url('../assets/header/02headerRight_400x500.png');
+        padding: 0px 40px 0px 0px;
+    }
+}
+@media all and (max-width: 750px) and (min-width: 640px) {
+    .imgLeft {
+        float:left;
+        content: url('../assets/header/02headerLeft_500x700.png');
+    }
+    .imgRight {
+        float:left;
+        content: url('../assets/header/02headerRight_500x700.png');
+        padding: 0px 45px 0px 0px;
+    }
+}
+@media all and (max-width: 849px) and (min-width: 750px) {
+    .imgLeft {
+        float:left;
+        content: url('../assets/header/02headerLeft_750.png');
+    }
+    .imgRight {
+        float:left;
+        content: url('../assets/header/02headerRight_750.png');
+        padding: 0px 50px 0px 0px;
+    }
+}
+@media all and (max-width: 1000px) and (min-width: 850px) {
+    .imgLeft {
+        float:left;
+        content: url('../assets/header/02headerLeft_700x1000.png');
+    }
+    .imgRight {
+        float:left;
+        content: url('../assets/header/02headerRight_700x1000.png');
+        padding: 0px 50px 0px 0px;
+    }
+}
+@media all and (max-width: 1100px) and (min-width: 1001px) {
+    .imgLeft {
+        float:left;
+        content: url('../assets/header/02headerLeft_950.png');
+    }
+    .imgRight {
+        float:left;
+        content: url('../assets/header/02headerRight_950.png');
+        padding: 0px 50px 0px 0px;
+    }
+}
+@media all and (max-width: 1200px) and (min-width: 1101px) {
+    .imgLeft {
+        float:left;
+        content: url('../assets/header/02headerLeft_1000.png');
+        max-width: 100%;
+    }
+    .imgRight {
+        float:left;
+        content: url('../assets/header/02headerRight_1000.png');
+        max-width: 100%;
+        padding: 0px 50px 0px 0px;
+    }
+}
+@media all and (max-width: 1369px) and (min-width: 1201px) {
+    .imgLeft {
+        float:left;
+        content: url('../assets/header/02headerLeft_1150.png');
+        max-width: 100%;
+    }
+    .imgRight {
+        float:left;
+        content: url('../assets/header/02headerRight_1150.png');
+        max-width: 100%;
+        padding: 0px 50px 0px 0px;
+    }
+}
+@media all and (max-width: 1570px) and (min-width: 1370px) {
+    .imgLeft {
+        float:left;
+        content: url('../assets/header/02headerLeft_1300.png');
+        max-width: 100%;
+    }
+    .imgRight {
+        float:left;
+        content: url('../assets/header/02headerRight_1300.png');
+        max-width: 100%;
+        padding: 0px 50px 0px 0px;
+    }
+}
+@media all and (max-width: 1750px) and (min-width: 1571px) {
+    .imgLeft {
+        float:left;
+        content: url('../assets/header/02headerLeft_1500.png');
+        max-width: 100%;
+    }
+    .imgRight {
+        float:left;
+        content: url('../assets/header/02headerRight_1500.png');
+        max-width: 100%;
+        padding: 0px 50px 0px 0px;
+    }
+}
+@media all and (min-width: 1751px) {
+    .imgLeft {
+        float:left;
+        content: url('../assets/header/02headerLeft_1700.png');
+        max-width: 100%;
+    }
+    .imgRight {
+        float:left;
+        content: url('../assets/header/02headerRight_1700.png');
+        max-width: 100%;
+        padding: 0px 50px 0px 0px;
+    }
+}
