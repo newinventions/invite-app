@@ -66,6 +66,7 @@ button {
 @media all and (min-width: 1001px) {
     button {
         border-radius: 8px;
+        background-color: rgb(70, 4, 64);
     }
     .welcomeMsg {
         font-size: 48px;

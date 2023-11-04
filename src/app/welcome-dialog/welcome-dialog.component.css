@@ -4,7 +4,7 @@
     right: 0px;
     width: 45px;
     height: 45px;
-    background-color: #4575de;
+    background-color: rgb(70, 4, 64);
     border: none;
 }
 #abMusicOff {
@@ -13,7 +13,7 @@
     right: 0px;
     width: 45px;
     height: 45px;
-    background-color: #4575de;
+    background-color: rgb(70, 4, 64);
     border: none;
 }
 #musicOn {
