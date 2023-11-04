@@ -34,7 +34,7 @@ export class AudioBackgroundComponent implements OnInit {
   }
 
   playAudio() {
-    this.audio.src = "../../assets/audio-backg/SweetChildOMine_4wp.mp3";
+    this.audio.src = "../../assets/audio-backg/IWillAlwaysLoveYou.mp3";
     this.audio.load();
     this.playPromise = this.audio.play();
     console.log(`playAudio() - Music starts!!!`)
