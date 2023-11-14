@@ -8,8 +8,8 @@ import { CountdownTimerComponent } from 'projects/countdown-timer/src/lib/countd
 })
 export class MainInfoComponent implements OnInit {
 
-  miHostName = "YESHUA"
-  miEventName = "¡Mis 3 años!";
+  miHostName = "RUTH"
+  miEventName = "40";
   miDays = "Días";
   miHours = "Horas";
   miMinutes = "Minutos";
@@ -35,7 +35,7 @@ export class MainInfoComponent implements OnInit {
           minutes: 0,
           seconds: 0
         }
-        this.message = "¡Disfruta la fiesta junto a nosotros!";
+        this.message = "¡Disfruta de esta fiesta conmigo!";
       } else if ((this.timer.time.days == -1) && (this.timer.time.hours < 12)) {
         this.timer.time = {
           days: 0,
@@ -43,7 +43,7 @@ export class MainInfoComponent implements OnInit {
           minutes: 0,
           seconds: 0
         }
-        this.message = "¡Fue una gran fiesta! Descansemos un poco.";
+        this.message = "¡Fue una gran fiesta! Descansemos por hoy.";
       } else if (this.timer.time.days < -1) {
         this.timer.time = {
           days: -2,
@@ -51,7 +51,7 @@ export class MainInfoComponent implements OnInit {
           minutes: 0,
           seconds: 0
         }
-        this.message = "¡Gracias por acompañarnos! Deseamos que hayas disfrutado estos momentos con nosotros.";
+        this.message = "¡Gracias por acompañarme! Espero que hayas disfrutado estos momentos conmigo.";
         counterTimer$.unsubscribe();
       }
     });

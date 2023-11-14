@@ -2,7 +2,7 @@
 
 .bckgrndImg {
     height: 590px;
-    background-image: url("../../assets/frontLow.jpg");
+    background-image: url("../../assets/frontmamaLow.jpg");
     background-size: 100%;
     background-size: cover;
     background-position-x: center;
@@ -21,6 +21,18 @@
     font-family: Fredericka the Great, serif;
     font-size: 30px;
     color: white;
+    animation: glow 3s ease-in-out infinite alternate;
+}  
+@keyframes glow {
+    from {
+      text-shadow: 5px 5px 10px #fff, 5px 5px 20px #fff,
+      5px 5px 30px #a600f3, 5px 5px 40px #a600f3, 5px 5px 50px #a600f3, 5px 5px 60px #a600f3, 5px 5px 70px #a600f3;
+    }
+    
+    to {
+      text-shadow: 1px 1px 20px #fff, 1px 1px 30px #ff4deb,
+      1px 1px 40px #ff4deb, 1px 1px 50px #ff4deb, 1px 1px 60px #ff4deb, 1px 1px 70px #ff4deb, 1px 1px 80px #ff4deb;
+    }
 }
 .counter {
     text-align: center;
