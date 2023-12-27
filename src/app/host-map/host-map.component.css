@@ -24,9 +24,15 @@ h2 {
     font-size: 12px;
     line-height: 0.9;
 }
+.hostLink {
+    font-size: 13px;
+}
 .close {
     font-family: Capriola, serif;
     font-size: 10px;
+}
+.bText {
+    font-weight: bold;
 }
 @media all and (max-width: 519px) and (min-width: 414px) {
     h1 {
@@ -41,6 +47,9 @@ h2 {
     }
     .hostWhere {
         font-size: 13px;
+    }
+    .hostLink {
+        font-size: 14px;
     }
     .close {
         font-size: 11px;
@@ -64,6 +73,9 @@ h2 {
         font-size: 13px;
         line-height: normal;
     }
+    .hostLink {
+        font-size: 15px;
+    }
     .close {
         font-size: 11px;
     }
@@ -86,6 +98,9 @@ h2 {
         font-size: 14px;
         line-height: normal;
     }
+    .hostLink {
+        font-size: 16px;
+    }
     .close {
         font-size: 12px;
     }
@@ -107,6 +122,9 @@ h2 {
     .hostWhere {
         font-size: 14px;
         line-height: 1.2;
+    }
+    .hostLink {
+        font-size: 16px;
     }
     .close {
         font-size: 12px;

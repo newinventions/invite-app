@@ -9,13 +9,13 @@ import { Loader } from '@googlemaps/js-api-loader';
 export class MassMapComponent implements OnInit {
   gApiKey:string = "AIzaSyDRihSvKYDRvwmM-10dxby74ULY6prodgw";
   title:string = "Ceremonia Religiosa";
-  church:string = "Parroquia 'María Reina de la Paz'";
+  church:string = "Parroquia";
   when:string = "Cuándo:";
-  whenData:string = "1º de Abril de 2023, 11 a.m.";
+  whenData:string = "20 de Enero de 2024, 5:00 p.m.";
   where:string = "Dirección:";
-  whereData:string = "5 B Sur y 59 Poniente S/N, Col. Villa Encantada, C.P. 72330, Puebla, Pue.";
+  whereData:string = "Río Atoyac 5912, Jardines de San Manuel, C.P. 72570, Heroica Puebla de Zaragoza, Pue.";
   closeButton:string = "CERRAR";
-  link:string = "<a href=\"https://www.google.com.mx/maps/place/Parroquia+%22Mar%C3%ADa+Reina+de+la+paz%22/@19.0182008,-98.2284936,15z/data=!4m14!1m7!3m6!1s0x85cfc0b293e893c5:0x41fef9eaa345216b!2sParroquia+%22Mar%C3%ADa+Reina+de+la+paz%22!8m2!3d19.0182008!4d-98.2197389!16s%2Fg%2F1ptylvz1q!3m5!1s0x85cfc0b293e893c5:0x41fef9eaa345216b!8m2!3d19.0182008!4d-98.2197389!16s%2Fg%2F1ptylvz1q\" target=\"_blank\" style=\"font-size:10px;\" >Abrir en Google Maps</a>"
+  link:string = "<a href=\"https://www.google.com/maps/place/RECEPCIONES+MARIEL/@19.0101004,-98.2052236,18z/data=!4m14!1m7!3m6!1s0x85cfc0a6ca2efa57:0xf35953abea88fadf!2sRECEPCIONES+MARIEL!8m2!3d19.0100199!4d-98.2051372!16s%2Fg%2F1ptv_v2rk!3m5!1s0x85cfc0a6ca2efa57:0xf35953abea88fadf!8m2!3d19.0100199!4d-98.2051372!16s%2Fg%2F1ptv_v2rk?entry=ttu\" target=\"_blank\" style=\"font-size:10px;\" >Abrir en Google Maps</a>"
   private map!: google.maps.Map;
 
   constructor() { }

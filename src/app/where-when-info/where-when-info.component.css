@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English|Happy+Monkey');
 .wwiHeader {
-    padding-top: 30px;
+    padding-top: 20px;
     margin-top: 0px;
-    margin-bottom: 20px;
+    padding-bottom: 3px;
+    background-color: #ffefff;
 }
 .wwiText {
     font-family: IM Fell English, serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 27px;
     text-align: center;
 }
 .wwInfo {
+    padding-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 10px;
     text-align: center;
+    background-color: #ffefff;
 }
 .info {
     width: 90%;
@@ -21,28 +27,8 @@
     padding: 10px 10px 10px 10px;
     font-family: Happy Monkey, serif;
     font-size: 11px;
-    background-color: #efefef;
+    background-color: white;
     text-align: left;
-}
-.massTitle {
-    font-family: Happy Monkey, serif;
-    font-weight: bold;
-    font-size: 15px;
-}
-.massPlaceName {
-    font-family: Happy Monkey, serif;
-    font-weight: bold;
-    font-size: 13px;
-}
-.massPic {
-    height: 220px;
-    width: 100%;
-    margin: 0px 0px 20px 0px;
-    background-image: url("../../assets/where-when/church.jpg");
-    background-size: auto;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: bottom;
 }
 .hostingTitle {
     font-family: Happy Monkey, serif;
@@ -57,7 +43,7 @@
 .hostingPic {
     height: 220px;
     width: 100%;
-    background-image: url("../../assets/where-when/hosting.jpg");
+    background-image: url("../../assets/where-when/recepcionesMarielLow.jpg");
     margin: 0px 0px 20px 0px;
     background-size: auto;
     background-size: cover;
@@ -68,7 +54,7 @@
     font-weight: bold;
 }
 button {
-    background-color: #bbb;
+    background-color: rgb(70, 4, 64);;
     border: none;
     border-radius: 8px;
     width: 100%;
@@ -85,9 +71,9 @@ button {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #fdf;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(122, 89, 89, 0.2);
     margin-left: 13%;
     margin-right: auto;
     margin-top: -100px;
@@ -100,7 +86,7 @@ button {
     display: block;
 }
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #fff4ff;
 }
 .show {
     display:block;
@@ -110,86 +96,62 @@ button {
     font-size: smaller;
 }
 @media all and (max-width: 334px) and (min-width: 270px) {
-    .wwiHeader {
-        padding-top: 1px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .wwiImgLeft {
-        float: left;
-        content: url('../../assets/where-when/03wwInfoLeft_Small.png');
-        margin-left: 3px;
-    }
     .wwiText {
         font-weight: 400;
         font-size: 29px;
     }
-    .wwiTitle {
-        padding: 45px 0px 0px 0px;
+    .wwInfo {
+        padding-top: 10px;
+        padding-left: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 10px;
     }
 }
 @media all and (max-width: 413px) and (min-width: 335px) {
     .wwiHeader {
-        padding-top: 1px;
-        margin-top: 0px;
-        margin-bottom: 0px;
+        padding-top: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 5px;
     }
-    .wwiImgLeft {
-        float: left;
-        content: url('../../assets/where-when/03wwInfoLeft_Small.png');
-        margin-left: 3px;
-    }
-    .wwiImgRight {
-        float: right;
-        content: url('../../assets/where-when/03wwInfoRight_Small.png');
-        margin-top: -36px;
-        margin-right: 5px;
-    }
-    .wwiTitle {
-        padding: 45px 30px 0px 0px;
+    .wwInfo {
+        padding-top: 10px;
+        padding-left: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 10px;
     }
 }
 @media all and (max-width: 519px) and (min-width: 414px) {
     .wwiHeader {
-        padding-top: 1px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .wwiImgLeft {
-        float: left;
-        content: url('../../assets/where-when/03wwInfoLeft.png');
-        margin-left: 7px;
+        padding-top: 30px;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        padding-bottom: 5px;
     }
     .wwiText {
         font-size: 40px;
-        position: absolute;
         width: 100%;
     }
-    .wwiTitle {
-        padding: 105px 0px 0px 60px;
+    .wwInfo {
+        padding-top: 10px;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        padding-bottom: 10px;
     }
     .info {
         width: 85%;
         margin-left: 0.5em;
         margin-right: 0.5em;
         margin-bottom: 10px;
-        padding: 30px 30px 30px 30px;
+        padding: 20px 20px 20px 20px;
         font-size: 13px;
         display: inline-block;
-    }
-    .massPic {
-        height: 300px;
-        width: 100%;
     }
     .hostingPic {
         height: 300px;
         width: 100%;
-    }
-    .massTitle {
-        font-size: 19px;
-    }
-    .massPlaceName {
-        font-size: 16px;
     }
     .hostingTitle {
         font-size: 19px;
@@ -212,28 +174,20 @@ button {
 }
 @media all and (max-width: 699px) and (min-width: 520px) {
     .wwiHeader {
-        padding-top: 1px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .wwiImgLeft {
-        float: left;
-        content: url('../../assets/where-when/03wwInfoLeft.png');
-        margin-left: 12px;
-    }
-    .wwiImgRight {
-        float: right;
-        content: url('../../assets/where-when/03wwInfoRight.png');
-        margin-top: 80px;
-        margin-right: 10px;
+        padding-top: 30px;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-bottom: 5px;
     }
     .wwiText {
         font-size: 40px;
-        position: absolute;
         width: 100%;
     }
-    .wwiTitle {
-        padding: 105px 0px 0px 0px;
+    .wwInfo {
+        padding-top: 10px;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-bottom: 10px;
     }
     .info {
         width: 80%;
@@ -244,19 +198,9 @@ button {
         font-size: 13px;
         display: inline-block;
     }
-    .massPic {
-        height: 370px;
-        width: 100%;
-    }
     .hostingPic {
         height: 370px;
         width: 100%;
-    }
-    .massTitle {
-        font-size: 19px;
-    }
-    .massPlaceName {
-        font-size: 16px;
     }
     .hostingTitle {
         font-size: 19px;
@@ -279,28 +223,20 @@ button {
 }
 @media all and (max-width: 1000px) and (min-width: 700px) {
     .wwiHeader {
-        padding-top: 1px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .wwiImgLeft {
-        float: left;
-        content: url('../../assets/where-when/03wwInfoLeft.png');
-        margin-left: 12px;
-    }
-    .wwiImgRight {
-        float: right;
-        content: url('../../assets/where-when/03wwInfoRight.png');
-        margin-top: 80px;
-        margin-right: 10px;
+        padding-top: 40px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 10px;
     }
     .wwiText {
         font-size: 45px;
-        position: absolute;
         width: 100%;
     }
-    .wwiTitle {
-        padding: 105px 0px 0px 0px;
+    .wwInfo {
+        padding-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 10px;
     }
     .info {
         width: 80%;
@@ -311,19 +247,9 @@ button {
         font-size: 13px;
         display: inline-block;
     }
-    .massPic {
-        height: 500px;
-        width: 100%;
-    }
     .hostingPic {
         height: 500px;
         width: 100%;
-    }
-    .massTitle {
-        font-size: 19px;
-    }
-    .massPlaceName {
-        font-size: 16px;
     }
     .hostingTitle {
         font-size: 19px;
@@ -346,28 +272,20 @@ button {
 }
 @media all and (max-width: 1114px) and (min-width: 1001px) {
     .wwiHeader {
-        padding-top: 1px;
-        margin-top: 0px;
-        margin-bottom: 150px;
-    }
-    .wwiImgLeft {
-        float: left;
-        content: url('../../assets/where-when/03wwInfoLeft.png');
-        padding-left: 15px;
-    }
-    .wwiImgRight {
-        float: right;
-        content: url('../../assets/where-when/03wwInfoRight.png');
-        margin-top: 80px;
-        margin-right: 10px;
+        padding-top: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 10px;
     }
     .wwiText {
         font-size: 45px;
-        position: absolute;
         width: 100%;
     }
-    .wwiTitle {
-        padding: 105px 0px 0px 0px;
+    .wwInfo {
+        padding-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 10px;
     }
     .info {
         width: 400px;
@@ -378,19 +296,9 @@ button {
         box-sizing: border-box;
         display: inline-block;
     }
-    .massPic {
-        height: 218px;
-        width: 335px;
-    }
     .hostingPic {
         height: 218px;
         width: 335px;
-    }
-    .massTitle {
-        font-size: 19px;
-    }
-    .massPlaceName {
-        font-size: 16px;
     }
     .hostingTitle {
         font-size: 19px;
@@ -413,28 +321,21 @@ button {
 }
 @media all and (max-width: 1282px) and (min-width: 1115px) {
     .wwiHeader {
-        padding-top: 1px;
-        margin-top: 0px;
-        margin-bottom: 150px;
-    }
-    .wwiImgLeft {
-        float: left;
-        content: url('../../assets/where-when/03wwInfoLeft.png');
-        padding-left: 20px;
-    }
-    .wwiImgRight {
-        float: right;
-        content: url('../../assets/where-when/03wwInfoRight.png');
-        margin-top: 80px;
-        margin-right: 10px;
+        padding-top: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 20px;
     }
     .wwiText {
         font-size: 50px;
-        position: absolute;
         width: 100%;
+        text-align: center;
     }
-    .wwiTitle {
-        padding: 105px 0px 0px 0px;
+    .wwInfo {
+        padding-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 10px;
     }
     .info {
         width: 465px;
@@ -445,19 +346,9 @@ button {
         box-sizing: border-box;
         display: inline-block;
     }
-    .massPic {
-        height: 300px;
-        width: 400px;
-    }
     .hostingPic {
         height: 300px;
         width: 400px;
-    }
-    .massTitle {
-        font-size: 20px;
-    }
-    .massPlaceName {
-        font-size: 17px;
     }
     .hostingTitle {
         font-size: 20px;
@@ -480,28 +371,21 @@ button {
 }
 @media all and (min-width: 1283px) {
     .wwiHeader {
-        padding-top: 1px;
-        margin-top: 0px;
-        margin-bottom: 150px;
-    }
-    .wwiImgLeft {
-        float: left;
-        content: url('../../assets/where-when/03wwInfoLeft.png');
-        padding-left: 20px;
-    }
-    .wwiImgRight {
-        float: right;
-        content: url('../../assets/where-when/03wwInfoRight.png');
-        margin-top: 80px;
-        margin-right: 10px;
+        padding-top: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 20px;
     }
     .wwiText {
         font-size: 50px;
-        position: absolute;
         width: 100%;
+        text-align: center;
     }
-    .wwiTitle {
-        padding: 105px 0px 0px 0px;
+    .wwInfo {
+        padding-top: 10px;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 10px;
     }
     .info {
         width: 465px;
@@ -512,19 +396,9 @@ button {
         box-sizing: border-box;
         display: inline-block;
     }
-    .massPic {
-        height: 300px;
-        width: 400px;
-    }
     .hostingPic {
         height: 300px;
         width: 400px;
-    }
-    .massTitle {
-        font-size: 20px;
-    }
-    .massPlaceName {
-        font-size: 17px;
     }
     .hostingTitle {
         font-size: 20px;
