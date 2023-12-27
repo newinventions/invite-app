@@ -32,7 +32,7 @@ export class HostMapComponent implements OnInit {
     let loader = new Loader({
       apiKey: this.gApiKey
     });
-    // The location of Grandpa house
+    // The location of hosting place
     const hostingPlace = { lat: 19.0101004, lng: -98.2052236 };
     loader.importLibrary('maps').then(() => {
       console.log('hosting map loaded');
