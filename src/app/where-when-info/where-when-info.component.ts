@@ -32,14 +32,14 @@ export class WhereWhenInfoComponent implements OnInit {
     description: 'Misa de acción de gracias de 40 años de Ruth.',
     location: this.churchName + ', ' + this.churchWhere,
     start: new Date('2024-01-20T17:00:00'),
-    end: new Date('2024-01-21T01:00:00'),
+    end: new Date('2024-01-20T22:00:00'),
   };
   hostConfig: CalendarOptions = {
     title: 'Ruth: ' + this.hostTitle,
-    description: 'Ruth - 40',
+    description: 'Fiesta de Cumpleaños de Blanca Ruth',
     location: this.hostingName + ', ' + this.hostWhere,
     start: new Date('2024-01-20T17:00:00'),
-    end: new Date('2024-01-21T01:00:00'),
+    end: new Date('2024-01-20T22:00:00'),
   };
   op1:string = "Outlook";
   op2:string = "Google";
