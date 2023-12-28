@@ -16,30 +16,30 @@ import FileSaver from 'file-saver';
 export class WhereWhenInfoComponent implements OnInit {
   wwInfoTitle:string = "Dónde & Cuándo"
   churchTitle:string = "Ceremonia Religiosa";
-  churchName:string = "Parroquia 'María Reina de la Paz'";
-  churchWhen:string = "13 de Enero de 2024, 5 p.m.";
-  churchWhere:string = "5 B Sur y 59 Poniente S/N, Col. Villa Encantada, C.P. 72330, Puebla, Pue.";
+  churchName:string = "Parroquia";
+  churchWhen:string = "20 de Enero de 2024, 5:00 p.m.";
+  churchWhere:string = "Río Atoyac 5912, Jardines de San Manuel, C.P. 72570, Heroica Puebla de Zaragoza, Pue.";
   hostTitle:string = "Recepción";
-  hostingName:string = "Salón 'Geli', Eventos Sociales";
-  hostWhere:string = "Blvd. Los Pilares #2212, Col. Los Pilares, C.P. 72560, Puebla, Pue.";
-  hostWhen:string = "13 de Enero de 2023, 9:00 p.m.";
+  hostingName:string = "Recepciones Mariel";
+  hostWhere:string = "Río Atoyac 5912, Jardines de San Manuel, C.P. 72570, Heroica Puebla de Zaragoza, Pue.";
+  hostWhen:string = "20 de Enero de 2024, 5:00 p.m.";
   when:string = "Cuándo:";
   where:string = "Dirección:";
   mapButton:string = "Ver mapa";
   calButton:string = "Agendar en el calendario";
   massConfig: CalendarOptions = {
-    title: 'Yeshua: ' + this.churchTitle,
-    description: 'Misa de acción de gracias de 3 años de Yeshua.',
+    title: 'Ruth: ' + this.churchTitle,
+    description: 'Misa de acción de gracias de 40 años de Ruth.',
     location: this.churchName + ', ' + this.churchWhere,
-    start: new Date('2024-01-13T17:00:00'),
-    end: new Date('2024-01-13T24:00:00'),
+    start: new Date('2024-01-20T17:00:00'),
+    end: new Date('2024-01-20T22:00:00'),
   };
   hostConfig: CalendarOptions = {
-    title: 'Yeshua: ' + this.hostTitle,
-    description: 'Fiesta de 3 años de Yeshua.',
+    title: 'Ruth: ' + this.hostTitle,
+    description: 'Fiesta de Cumpleaños de Blanca Ruth',
     location: this.hostingName + ', ' + this.hostWhere,
-    start: new Date('2024-01-13T17:30:00'),
-    end: new Date('2024-01-13T24:00:00'),
+    start: new Date('2024-01-20T17:00:00'),
+    end: new Date('2024-01-20T22:00:00'),
   };
   op1:string = "Outlook";
   op2:string = "Google";
@@ -101,7 +101,7 @@ export class WhereWhenInfoComponent implements OnInit {
     const blob = new Blob([icalendar.render()], {
       type: 'text/calendar'
     })
-    FileSaver.saveAs(blob, 'yeshua-mass.ics');
+    FileSaver.saveAs(blob, 'ruth-40.ics');
   }
 
   getMassGoogleLink():string {
@@ -116,8 +116,8 @@ export class WhereWhenInfoComponent implements OnInit {
 
   getMassYahooLink():string {
     const yahooCal = new YahooCalendar(this.massConfig);
-    yahooCal.setParam('in_st', 'Blvd. Mártires del 2 de Octubre #4313, Col. San Baltazar Campeche')
-    .setParam('in_csz', 'Puebla, Puebla, 72550');
+    yahooCal.setParam('in_st', 'Río Atoyac 5912, Jardines de San Manuel')
+    .setParam('in_csz', 'Heroica Puebla de Zaragoza, Pue., 72570');
     return yahooCal.render();
   }
 
@@ -130,7 +130,7 @@ export class WhereWhenInfoComponent implements OnInit {
     const blob = new Blob([icalendar.render()], {
       type: 'text/calendar'
     })
-    FileSaver.saveAs(blob, 'yeshua-hosting.ics');
+    FileSaver.saveAs(blob, 'ruth-hosting.ics');
   }
 
   getHostingGoogleLink():string {
@@ -145,8 +145,8 @@ export class WhereWhenInfoComponent implements OnInit {
 
   getHostingYahooLink():string {
     const yahooCal = new YahooCalendar(this.hostConfig);
-    yahooCal.setParam('in_st', 'Blvd. Los Pilares #2212, Col. Los Pilares')
-    .setParam('in_csz', 'Puebla, Puebla, 72560');
+    yahooCal.setParam('in_st', 'Río Atoyac 5912, Jardines de San Manuel')
+    .setParam('in_csz', 'Heroica Puebla de Zaragoza, Pue., 72570');
     return yahooCal.render();
   }
 

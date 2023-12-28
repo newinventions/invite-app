@@ -9,13 +9,15 @@ import { Loader } from '@googlemaps/js-api-loader';
 export class HostMapComponent implements OnInit {
   gApiKey:string = "AIzaSyDRihSvKYDRvwmM-10dxby74ULY6prodgw";
   title:string = "Recepción";
-  hosting:string = "Salón 'Geli', Eventos Sociales";
+  hosting:string = "Recepciones Mariel";
   when:string = "Cuándo:";
-  whenData:string = "1º de Abril de 2023, 1:30 p.m.";
+  whenData:string = "20 de Enero de 2024, 5:00 p.m.";
   where:string = "Dirección:";
-  whereData:string = "Blvd. Los Pilares #2212, Col. Los Pilares, C.P. 72560, Puebla, Pue.";
+  whereData:string = "Río Atoyac 5912, Jardines de San Manuel, C.P. 72570, Heroica Puebla de Zaragoza, Pue.";
   closeButton:string = "CERRAR";
-  link:string = "<a href=\"https://www.google.com.mx/maps/place/Geli+-+Eventos+Sociales/@19.0172401,-98.1966966,17z/data=!3m1!4b1!4m5!3m4!1s0x85cfc099f038fd9b:0x7ceec2d4c61f769a!8m2!3d19.0171806!4d-98.1945242\" target=\"_blank\" style=\"font-size:10px;\" >Abrir en Google Maps</a>"
+  link:string = "<a href=\"https://www.google.com/maps/place/RECEPCIONES+MARIEL/@19.0101004,-98.2052236,18z/data=!4m14!1m7!3m6!1s0x85cfc0a6ca2efa57:0xf35953abea88fadf!2sRECEPCIONES+MARIEL!8m2!3d19.0100199!4d-98.2051372!16s%2Fg%2F1ptv_v2rk!3m5!1s0x85cfc0a6ca2efa57:0xf35953abea88fadf!8m2!3d19.0100199!4d-98.2051372!16s%2Fg%2F1ptv_v2rk?entry=ttu\" target=\"_blank\" style=\"font-size:10px;\" >Abrir en Google Maps</a>"
+  url:string = "https://www.google.com/maps/place/RECEPCIONES+MARIEL/@19.0101004,-98.2052236,18z/data=!4m14!1m7!3m6!1s0x85cfc0a6ca2efa57:0xf35953abea88fadf!2sRECEPCIONES+MARIEL!8m2!3d19.0100199!4d-98.2051372!16s%2Fg%2F1ptv_v2rk!3m5!1s0x85cfc0a6ca2efa57:0xf35953abea88fadf!8m2!3d19.0100199!4d-98.2051372!16s%2Fg%2F1ptv_v2rk?entry=ttu";
+  name:string = "Abrir en Google Maps";
   private map!: google.maps.Map;  
 
   constructor() { }
@@ -30,21 +32,21 @@ export class HostMapComponent implements OnInit {
     let loader = new Loader({
       apiKey: this.gApiKey
     });
-    // The location of Monasterio
-    const salonGeli = { lat: 19.0171806, lng: -98.1945242 };
+    // The location of hosting place
+    const hostingPlace = { lat: 19.0101004, lng: -98.2052236 };
     loader.importLibrary('maps').then(() => {
       console.log('hosting map loaded');
-      // The map, centered at Monasterio
+      // The map, centered at hosting place
       this.map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
         zoom: 16,
-        center: salonGeli,
+        center: hostingPlace,
         streetViewControl: false,
         fullscreenControl: false,
         mapTypeControl: false,
       });
-      // The marker, positioned at Monasterio
+      // The marker, positioned at hosting place
       const marker = new google.maps.Marker({
-        position: salonGeli,
+        position: hostingPlace,
         map: this.map,
       });
       // the info window
