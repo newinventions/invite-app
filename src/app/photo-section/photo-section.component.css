@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
 .psHeader {
     padding-top: 30px;
-    margin-top: 0px;
     margin-bottom: 20px;
 }
 .psText {
@@ -12,7 +11,9 @@
 }
 .psCarousel {
     height: auto;
-    width: 100%;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .psImgCar {
     height: 620px;
@@ -20,141 +21,91 @@
 }
 @media all and (max-width: 413px) and (min-width: 270px) {
     .psHeader {
-        padding-top: 1px;
-        margin-top: 10px;
-        margin-bottom: 86px;
+        padding-top: 20px;
+        margin-bottom: 40px;
     }
     .psText {
         font-size: 30px;
         position: absolute;
         width: 100%;
     }
-    .psTitle {
-        padding: 51px 30px 0px 0px;
-    }
-    .psImgLeft {
-        float: left;
-        content: url('../../assets/photo-section/04photoSectionLeft_Small.png');
-        margin-left: 5px;
-        margin-bottom: 1px;
-        padding: 50px 0px 0px 0px;
-    }
-    .psImgRight {
-        float: right;
-        content: url('../../assets/photo-section/04PhotoSectionRight_Small.png');
-        margin-right: 5px;
-        margin-bottom: 1px;
+    .psCarousel {
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 @media all and (max-width: 519px) and (min-width: 414px) {
     .psHeader {
-        padding-top: 1px;
-        margin-top: 10px;
-        margin-bottom: 171px;
+        padding-top: 30px;
+        margin-bottom: 50px;
     }
     .psText {
         font-size: 40px;
         position: absolute;
         width: 100%;
     }
-    .psTitle {
-        padding: 120px 60px 0px 0px;
-    }
-    .psImgLeft {
-        float: left;
-        content: url('../../assets/photo-section/04PhotoSectionLeft.png');
-        margin-left: 7px;
-        margin-bottom: 1px;
-        padding: 100px 0px 0px 0px;
-    }
-    .psImgRight {
-        float: right;
-        content: url('../../assets/photo-section/04PhotoSectionRight_doubled.png');
-        margin-right: 7px;
-        margin-bottom: 1px;
+    .psCarousel {
+        margin-left: 6%;
+        margin-right: 6%;
     }
 }
 @media all and (max-width: 699px) and (min-width: 520px) {
     .psHeader {
-        padding-top: 1px;
-        margin-top: 10px;
-        margin-bottom: 171px;
+        padding-top: 35px;
+        margin-bottom: 50px;
     }
     .psText {
         font-size: 40px;
         position: absolute;
         width: 100%;
     }
-    .psTitle {
-        padding: 120px 50px 0px 0px;
-    }
-    .psImgLeft {
-        float: left;
-        content: url('../../assets/photo-section/04PhotoSectionLeft.png');
-        margin-left: 7px;
-        margin-bottom: 1px;
-        padding: 100px 0px 0px 0px;
-    }
-    .psImgRight {
-        float: right;
-        content: url('../../assets/photo-section/04PhotoSectionRight_doubled.png');
-        margin-right: 7px;
-        margin-bottom: 1px;
+    .psCarousel {
+        margin-left: 7%;
+        margin-right: 7%;
     }
 }
-@media all and (max-width: 1114px) and (min-width: 700px) {
+@media all and (max-width: 1000px) and (min-width: 700px) {
     .psHeader {
-        padding-top: 1px;
-        margin-top: 10px;
-        margin-bottom: 171px;
+        padding-top: 40px;
+        margin-bottom: 60px;
     }
     .psText {
         font-size: 45px;
         position: absolute;
         width: 100%;
     }
-    .psTitle {
-        padding: 120px 20px 0px 0px;
+    .psCarousel {
+        margin-left: 8%;
+        margin-right: 8%;
     }
-    .psImgLeft {
-        float: left;
-        content: url('../../assets/photo-section/04PhotoSectionLeft.png');
-        margin-left: 7px;
-        margin-bottom: 1px;
-        padding: 100px 0px 0px 0px;
+}
+@media all and (max-width: 1114px) and (min-width: 1001px) {
+    .psHeader {
+        padding-top: 40px;
+        margin-bottom: 60px;
     }
-    .psImgRight {
-        float: right;
-        content: url('../../assets/photo-section/04PhotoSectionRight_doubled.png');
-        margin-right: 7px;
-        margin-bottom: 1px;
+    .psText {
+        font-size: 45px;
+        position: absolute;
+        width: 100%;
+    }
+    .psCarousel {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 @media all and (min-width: 1115px) {
     .psHeader {
-        padding-top: 1px;
-        margin-top: 10px;
-        margin-bottom: 171px;
+        padding-top: 50px;
+        margin-bottom: 70px;
     }
     .psText {
         font-size: 50px;
         position: absolute;
         width: 100%;
     }
-    .psTitle {
-        padding: 120px 0px 0px 0px;
-    }
-    .psImgLeft {
-        float: left;
-        content: url('../../assets/photo-section/04PhotoSectionLeft.png');
-        margin-left: 7px;
-        margin-bottom: 1px;
-        padding: 100px 0px 0px 0px;
-    }
-    .psImgRight {
-        float: right;
-        content: url('../../assets/photo-section/04PhotoSectionRight_doubled.png');
-        margin-right: 7px;
-        margin-bottom: 1px;
+    .psCarousel {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
