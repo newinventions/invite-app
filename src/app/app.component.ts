@@ -9,6 +9,6 @@ export class AppComponent {
   amWhereWhen:string = "Dónde & Cuándo";
   amPhotos:string = "Mis Fotos";
   amFamily:string = "Mi Familia";
-  amVideo:string = "Ver Video";
+  //amVideo:string = "Ver Video";
   amMessage:string = "Mensaje";
 }
