@@ -26,8 +26,8 @@
 .familyPhoto {
     padding-bottom: 25px;
 }
-.dadPhoto {
-    content: url('../../assets/family-info/dadFace.jpg');
+.rel1Photo {
+    content: url('../../assets/family-info/husbandFace.jpg');
     width: 200px;
     height: 200px;
     display: block;
@@ -37,8 +37,8 @@
     border: 6px solid #fff;
     box-shadow: 2px 4px 7px #ddd;
 }
-.momPhoto {
-    content: url('../../assets/family-info/momFace.jpg');
+.rel2Photo {
+    content: url('../../assets/family-info/sonFace.jpg');
     width: 200px;
     height: 200px;
     display: block;
@@ -72,17 +72,6 @@
     .fiTitle {
         padding: 30px 0px 0px 0px;
     }
-    .fiImgLeft {
-        float: left;
-        content: url('../../assets/family-info/08FamilyInfoLeft_Small.png');
-        padding: 13px 0px 0px 5px;
-    }
-    .fiImgRight {
-        float: right;
-        content: url('../../assets/family-info/08FamilyInfoRight_Small.png');
-        margin-right: 5px;
-        padding: 35px 0px 0px 0px;
-    }
 }
 @media all and (max-width: 519px) and (min-width: 414px) {
     .fiHeader {
@@ -105,28 +94,14 @@
     .field {
         font-size: 13px;
     }
-    .fiImgLeft {
-        float: left;
-        content: url('../../assets/family-info/08FamilyInfoLeft.png');
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding: 0px 0px 0px 20px;
-    }
-    .fiImgRight {
-        float: right;
-        content: url('../../assets/family-info/08FamilyInfoRight.png');
-        margin-right: 20px;
-        margin-bottom: 20px;
-        padding: 45px 0px 0px 0px;
-    }
     .familyPhoto {
         padding-bottom: 30px;
     }
-    .dadPhoto {
+    .rel1Photo {
         width: 225px;
         height: 225px;
     }
-    .momPhoto {
+    .rel2Photo {
         width: 225px;
         height: 225px;
     }
@@ -156,28 +131,14 @@
     .field {
         font-size: 14px;
     }
-    .fiImgLeft {
-        float: left;
-        content: url('../../assets/family-info/08FamilyInfoLeft.png');
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding: 0px 0px 0px 20px;
-    }
-    .fiImgRight {
-        float: right;
-        content: url('../../assets/family-info/08FamilyInfoRight.png');
-        margin-right: 20px;
-        margin-bottom: 20px;
-        padding: 45px 0px 0px 0px;
-    }
     .familyPhoto {
         padding-bottom: 40px;
     }
-    .dadPhoto {
+    .rel1Photo {
         width: 250px;
         height: 250px;
     }
-    .momPhoto {
+    .rel2Photo {
         width: 250px;
         height: 250px;
     }
@@ -207,20 +168,6 @@
     .field {
         font-size: 15px;
     }
-    .fiImgLeft {
-        float: left;
-        content: url('../../assets/family-info/08FamilyInfoLeft.png');
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding: 0px 0px 0px 20px;
-    }
-    .fiImgRight {
-        float: right;
-        content: url('../../assets/family-info/08FamilyInfoRight.png');
-        margin-right: 20px;
-        margin-bottom: 20px;
-        padding: 45px 0px 0px 0px;
-    }
     .familyPhoto {
         margin-left: 2em;
         margin-right: 2em;
@@ -228,11 +175,11 @@
         display: inline-block;
         padding: 20px 0px 60px 0px;
     }
-    .dadPhoto {
+    .rel1Photo {
         width: 250px;
         height: 250px;
     }
-    .momPhoto {
+    .rel2Photo {
         width: 250px;
         height: 250px;
     }
@@ -262,20 +209,6 @@
     .field {
         font-size: 16px;
     }
-    .fiImgLeft {
-        float: left;
-        content: url('../../assets/family-info/08FamilyInfoLeft.png');
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding: 0px 0px 0px 20px;
-    }
-    .fiImgRight {
-        float: right;
-        content: url('../../assets/family-info/08FamilyInfoRight.png');
-        margin-right: 20px;
-        margin-bottom: 20px;
-        padding: 45px 0px 0px 0px;
-    }
     .familyPhoto {
         margin-left: 3.5em;
         margin-right: 3.5em;
@@ -283,11 +216,11 @@
         display: inline-block;
         padding: 50px 0px 130px 0px;
     }
-    .dadPhoto {
+    .rel1Photo {
         width: 250px;
         height: 250px;
     }
-    .momPhoto {
+    .rel2Photo {
         width: 250px;
         height: 250px;
     }
@@ -317,20 +250,6 @@
     .field {
         font-size: 16px;
     }
-    .fiImgLeft {
-        float: left;
-        content: url('../../assets/family-info/08FamilyInfoLeft.png');
-        margin-left: 0px;
-        margin-bottom: 20px;
-        padding: 0px 0px 0px 20px;
-    }
-    .fiImgRight {
-        float: right;
-        content: url('../../assets/family-info/08FamilyInfoRight.png');
-        margin-right: 20px;
-        margin-bottom: 20px;
-        padding: 45px 0px 0px 0px;
-    }
     .familyPhoto {
         margin-left: 5em;
         margin-right: 5em;
@@ -338,11 +257,11 @@
         display: inline-block;
         padding: 50px 0px 130px 0px;
     }
-    .dadPhoto {
+    .rel1Photo {
         width: 250px;
         height: 250px;
     }
-    .momPhoto {
+    .rel2Photo {
         width: 250px;
         height: 250px;
     }
