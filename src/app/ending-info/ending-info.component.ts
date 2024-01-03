@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./ending-info.component.css']
 })
 export class EndingInfoComponent {
-  babyName = "Yeshua";
-  message = "¡Mi familia y yo te esperamos para celebrar!"
+  hostName = "Ruth";
+  message = "Los momentos especiales son para compartirse... ¡Ven a mi fiesta y celebremos juntos!"
 }
