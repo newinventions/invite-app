@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { OwlOptions, SlidesOutputData } from 'ngx-owl-carousel-o';
 
 @Component({
@@ -11,16 +11,16 @@ export class PhotoSectionComponent {
   psTitle:string = "Mis fotos";
 
   slideStore = [
-    { id: "1", src: "../../assets/photo-section/f01Low.jpg", },
-    { id: "2", src: "../../assets/photo-section/f02Low.jpg", },
-    { id: "3", src: '../../assets/photo-section/f03Low.jpg', },
-    { id: "4", src: '../../assets/photo-section/f04Lowh.jpg', },
-    { id: "5", src: '../../assets/photo-section/f05Low.jpg', },
-    { id: "6", src: '../../assets/photo-section/f06Low.jpg', },
-    { id: "7", src: '../../assets/photo-section/f07Low.jpg', },
-    { id: "8", src: '../../assets/photo-section/f08nLow.jpg', }, 
-    { id: "9", src: '../../assets/photo-section/f09Low.jpg', },
-    { id: "10", src: '../../assets/photo-section/f10Low.jpg', }
+    { id: "1", src: "../../assets/photo-section/p01.jpg", },
+    { id: "2", src: "../../assets/photo-section/p02.jpg", },
+    { id: "3", src: '../../assets/photo-section/p03.jpg', },
+    { id: "4", src: '../../assets/photo-section/p04.jpg', },
+    { id: "5", src: '../../assets/photo-section/p05.jpg', },
+    { id: "6", src: '../../assets/photo-section/p06Low.jpg', },
+    { id: "7", src: '../../assets/photo-section/p07Low.jpg', },
+    { id: "8", src: '../../assets/photo-section/p08Low.jpg', }, 
+    { id: "9", src: '../../assets/photo-section/p09Low.jpg', },
+    { id: "10", src: '../../assets/photo-section/p10.jpg', }
   ];
 
   customOptions: OwlOptions = {
@@ -52,6 +52,7 @@ export class PhotoSectionComponent {
     center: true,
     autoHeight: true,
     autoWidth: true,
+    slideTransition: 'linear',
   };
   activeSlides!: SlidesOutputData;
 
