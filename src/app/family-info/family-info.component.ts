@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class FamilyInfoComponent {
   myFamilyTitle = "¡Mi Familia!";
-  momFirstName = "Blanca Ruth";
-  momField = "Mi mamá";
-  dadFirstName = "Raymundo Jacobo";
-  dadField = "Mi papá";
+  relative1FirstName = "Raymundo Jacobo";
+  relative1Field = "Mi esposo";
+  relative2FirstName = "Yeshua";
+  relative2Field = "Mi hijo";
   petsName = "Toby & Daisy";
   petsField = "Mis mascotas";
 }
