@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomeInfoComponent implements OnInit {
 
-  wiSalutation:string = "Bienvenido a la invitación de Ruth";
+  wiSalutation:string = "Bienvenidos a la invitación de Ruth";
   wiEnterButton:string = "INGRESAR";
 
   constructor() { }

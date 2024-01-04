@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Tangerine|Capriola');
+@import url('https://fonts.googleapis.com/css?family=Vidaloka|Capriola');
 button {
     background-color: rgb(70, 4, 64);
     border: none;
@@ -6,13 +6,13 @@ button {
     border-radius: 3px;
 }
 .welcomeMsg {
-    font-family: 'Tangerine', serif;
-    font-size: 27px;
-    height: 27px;
-    padding: 2px 0px 0px 0px;
+    font-family: Vidaloka, serif;
+    font-size: 13px;
+    height: 26px;
+    padding: 0px 0px 2px 0px;
 }
 .enterButton {
-    font-family: 'Capriola', serif;
+    font-family: Capriola, serif;
     font-size: 7px;
     color: white;
     height: 7px;
@@ -23,9 +23,9 @@ button {
         border-radius: 4px;
     }
     .welcomeMsg {
-        font-size: 33px;
-        height: 33px;
-        padding: 5px 0px 0px 0px;
+        font-size: 15px;
+        height: 15px;
+        padding: 0px 0px 5px 0px;
     }
     .enterButton {
         font-size: 9px;
@@ -38,9 +38,9 @@ button {
         border-radius: 5px;
     }
     .welcomeMsg {
-        font-size: 38px;
-        height: 38px;
-        padding: 10px 0px 0px 0px;
+        font-size: 18px;
+        height: 18px;
+        padding: 0px 0px 10px 0px;
     }
     .enterButton {
         font-size: 10px;
@@ -53,9 +53,9 @@ button {
         border-radius: 6px;
     }
     .welcomeMsg {
-        font-size: 43px;
-        height: 43px;
-        padding: 15px 0px 0px 0px;
+        font-size: 20px;
+        height: 20px;
+        padding: 0px 0px 10px 0px;
     }
     .enterButton {
         font-size: 11px;
@@ -69,9 +69,9 @@ button {
         background-color: rgb(70, 4, 64);
     }
     .welcomeMsg {
-        font-size: 48px;
-        height: 48px;
-        padding: 20px 0px 0px 0px;
+        font-size: 22px;
+        height: 22px;
+        padding: 0px 0px 10px 0px;
     }
     .enterButton {
         font-size: 12px;
