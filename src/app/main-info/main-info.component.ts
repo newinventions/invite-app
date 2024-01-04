@@ -8,7 +8,7 @@ import { CountdownTimerComponent } from 'projects/countdown-timer/src/lib/countd
 })
 export class MainInfoComponent implements OnInit {
 
-  miHostName = "RUTH"
+  miHostName = "Ruth"
   miEventName = "40";
   miDays = "Días";
   miHours = "Horas";

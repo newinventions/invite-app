@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Rubik+Distressed|Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab|Pacifico');
 
 .bckgrndImg {
     height: 590px;
@@ -8,50 +8,53 @@
     background-position-x: center;
 }
 .pName {
-    margin-top: 400px;
+    margin-top: 350px;
     text-align: center;
-    font-family: Amatic SC, serif;
-    font-size: 22px;
-    letter-spacing: 0.3em;
+    font-family: Pacifico, serif;
+    font-size: 40px;
     color: white;
+    text-shadow: 2px 2px 3px black;
 }
 .eventName {
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: center;
-    font-family: Fredericka the Great, serif;
-    font-size: 30px;
+    font-family: Josefin Slab, serif;
+    font-size: 40px;
     color: white;
     animation: glow 3s ease-in-out infinite alternate;
 }  
 @keyframes glow {
     from {
-      text-shadow: 5px 5px 10px #fff, 5px 5px 20px #fff,
-      5px 5px 30px #a600f3, 5px 5px 40px #a600f3, 5px 5px 50px #a600f3, 5px 5px 60px #a600f3, 5px 5px 70px #a600f3;
+      text-shadow: 5px 5px 20px #fff, 5px 5px 30px #fff,
+      5px 5px 30px #a600f3, 5px 5px 40px #a60013, 5px 5px 50px #a600f3, 5px 5px 60px #a60013, 5px 5px 70px #a600f3;
     }
     
     to {
-      text-shadow: 1px 1px 20px #fff, 1px 1px 30px #ff4deb,
-      1px 1px 40px #ff4deb, 1px 1px 50px #ff4deb, 1px 1px 60px #ff4deb, 1px 1px 70px #ff4deb, 1px 1px 80px #ff4deb;
+      text-shadow: 1px 1px 20px #fff, 1px 1px 30px #ffd,
+      1px 1px 40px #ff4deb, 1px 1px 50px #1f4deb, 1px 1px 60px #ff4deb, 1px 1px 70px #1f4deb, 1px 1px 80px #ff4deb;
     }
 }
 .counter {
     text-align: center;
-    font-family: Fredericka the Great, serif;
-    font-size: 20px;
+    font-family: Pacifico, serif;
+    font-size: 27px;
     color: white;
+    text-shadow: 2px 2px 3px black;
 }
 .colon {
     text-align: center;
     font-family: Fredericka the Great, serif;
     font-size: 7px;
     color: white;
+    text-shadow: 2px 2px 3px black;
 }
 .counterTitle {
     margin-top: 5px;
     text-align: center;
-    font-family: Fredericka the Great, serif;
-    font-size: 10px;
+    font-family: Pacifico, serif;
+    font-size: 12px;
     color: white;
+    text-shadow: 2px 2px 3px black;
 }
 .timeCounter {
     margin-top: 20px;
@@ -64,32 +67,32 @@
 .timeOverMsg {
     margin-top: 20px;
     text-align: center;
-    font-family: Amatic SC, serif;
+    font-family: Josefin Slab, serif;
     font-size: 20px;
     color: white;
+    text-shadow: 2px 2px 3px black;
 }
 @media all and (max-width: 519px) and (min-width: 414px) {
     .bckgrndImg {
         height: 680px;
     }
     .pName {
-        margin-top: 425px;
-        letter-spacing: 0.3em;
-        font-size: 25px;
+        margin-top: 390px;
+        font-size: 55px;
     }
     .eventName {
-        margin-top: 40px;
-        font-size: 40px;
+        margin-top: 50px;
+        font-size: 55px;
     }
     .counter {
-        font-size: 27px;
+        font-size: 36px;
     }
     .colon {
         font-size: 9px;
     }
     .counterTitle {
         margin-top: 16px;
-        font-size: 13px;
+        font-size: 16px;
     }
     .timeCounter {
         margin-top: 40px;
@@ -110,23 +113,22 @@
         height: 725px;
     }
     .pName {
-        margin-top: 450px;
-        letter-spacing: 0.3em;
-        font-size: 35px;
+        margin-top: 390px;
+        font-size: 65px;
     }
     .eventName {
-        margin-top: 50px;
-        font-size: 50px;
+        margin-top: 60px;
+        font-size: 65px;
     }
     .counter {
-        font-size: 32px;
+        font-size: 45px;
     }
     .colon {
         font-size: 11px;
     }
     .counterTitle {
         margin-top: 20px;
-        font-size: 17px;
+        font-size: 19px;
     }
     .timeCounter {
         margin-top: 40px;
@@ -147,16 +149,15 @@
         height: 850px;
     }
     .pName {
-        margin-top: 500px;
-        letter-spacing: 0.3em;
-        font-size: 40px;
+        margin-top: 480px;
+        font-size: 80px;
     }
     .eventName {
-        margin-top: 70px;
-        font-size: 63px;
+        margin-top: 80px;
+        font-size: 80px;
     }
     .counter {
-        font-size: 50px;
+        font-size: 60px;
     }
     .colon {
         font-size: 17px;
@@ -186,16 +187,15 @@
         background-position: center 1750px;
     }
     .pName {
-        margin-top: 550px;
-        letter-spacing: 0.3em;
-        font-size: 50px;
+        margin-top: 490px;
+        font-size: 100px;
     }
     .eventName {
-        margin-top: 80px;
-        font-size: 80px;
+        margin-top: 120px;
+        font-size: 100px;
     }
     .counter {
-        font-size: 60px;
+        font-size: 80px;
     }
     .colon {
         font-size: 20px;
