@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Rubik+Distressed|Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Vidaloka|Pacifico');
 .ei-bckgroundImg {
     height: 590px;
     background-image: url("../../assets/ending-info/byeLow.jpg");
@@ -9,17 +9,17 @@
 .ei-text {
     text-align: center;
     color: white;
-    padding-top: 450px;
+    padding-top: 420px;
 }
 .ei-hostName {
-    font-family: Fredericka the Great, serif;
-    font-size: 35px;
+    font-family: Pacifico, serif;
+    font-size: 44px;
     letter-spacing: 4px;
     text-shadow: 2px 2px #414141;
 }
 .ei-message {
-    font-family: Amatic SC, serif;
-    font-size: 24px;
+    font-family: Vidaloka, serif;
+    font-size: 19px;
     line-height: 25px;
     padding-left: 2%;
     padding-right: 2%;
@@ -50,11 +50,11 @@
         padding-top: 500px;
     }
     .ei-hostName {
-        font-size: 40px;
+        font-size: 45px;
         letter-spacing: 5px;
     }
     .ei-message {
-        font-size: 25px;
+        font-size: 20px;
         line-height: 27px;
         padding-left: 5%;
         padding-right: 5%;
@@ -73,7 +73,7 @@
         letter-spacing: 6px;
     }
     .ei-message {
-        font-size: 30px;
+        font-size: 23px;
         line-height: 32px;
         padding-left: 10%;
         padding-right: 10%;
@@ -85,18 +85,18 @@
         height: 850px;
     }
     .ei-text {
-        padding-top: 650px;
+        padding-top: 600px;
     }
     .ei-hostName {
-        font-size: 55px;
+        font-size: 70px;
         letter-spacing: 7px;
     }
     .ei-message {
-        font-size: 35px;
+        font-size: 25px;
         line-height: 35px;
         padding-left: 15%;
         padding-right: 15%;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
     }
 }
 @media all and (max-width: 1652px) and (min-width: 1001px) {
@@ -106,14 +106,14 @@
         background-position: center 1750px;
     }
     .ei-text {
-        padding-top: 700px;
+        padding-top: 650px;
     }
     .ei-hostName {
-        font-size: 60px;
+        font-size: 80px;
         letter-spacing: 8px;
     }
     .ei-message {
-        font-size: 40px;
+        font-size: 30px;
         line-height: 40px;
         padding-left: 20%;
         padding-right: 20%;
@@ -127,14 +127,14 @@
         background-position: center 1800px;
     }
     .ei-text {
-        padding-top: 730px;
+        padding-top: 710px;
     }
     .ei-hostName {
-        font-size: 60px;
+        font-size: 80px;
         letter-spacing: 8px;
     }
     .ei-message {
-        font-size: 40px;
+        font-size: 30px;
         line-height: 40px;
         padding-left: 25%;
         padding-right: 25%;

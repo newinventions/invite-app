@@ -1,24 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+English|Happy+Monkey|Capriola');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Josefin+Slab');
 .fiHeader {
     padding-top: 10px;
     margin-top: 0px;
     margin-bottom: 20px;
 }
 .fiText {
-    font-family: IM Fell English, serif;
+    font-family: Pacifico, serif;
     font-weight: 400;
     font-size: 30px;
     text-align: center;
 }
 .name {
-    font-family: Happy Monkey, serif;
-    font-size: 12px;
+    font-family: Pacifico, serif;
+    font-size: 19px;
     padding-top: 10px;
-    margin-bottom: 1px;
+    margin-top: 14px;
+    margin-bottom: 19px;
 }
 .field {
-    font-family: Capriola, serif;
-    font-size: 12px;
+    font-family: Josefin Slab, serif;
+    font-size: 14px;
 }
 .fiPhotos {
     text-align: center;
@@ -88,11 +89,12 @@
         padding: 60px 0px 0px 0px;
     }
     .name {
-        font-size: 13px;
-        margin-bottom: 3px;
+        font-size: 19px;
+        margin-top: 16px;
+        margin-bottom: 21px;
     }
     .field {
-        font-size: 13px;
+        font-size: 15px;
     }
     .familyPhoto {
         padding-bottom: 30px;
@@ -125,11 +127,12 @@
         padding: 60px 0px 0px 0px;
     }
     .name {
-        font-size: 14px;
-        margin-bottom: 5px;
+        font-size: 20px;
+        margin-top: 18px;
+        margin-bottom: 23px;
     }
     .field {
-        font-size: 14px;
+        font-size: 16px;
     }
     .familyPhoto {
         padding-bottom: 40px;
@@ -162,11 +165,12 @@
         padding: 60px 0px 0px 0px;
     }
     .name {
-        font-size: 15px;
-        margin-bottom: 6px;
+        font-size: 21px;
+        margin-top: 19px;
+        margin-bottom: 24px;
     }
     .field {
-        font-size: 15px;
+        font-size: 17px;
     }
     .familyPhoto {
         margin-left: 2em;
@@ -203,11 +207,12 @@
         padding: 60px 0px 0px 0px;
     }
     .name {
-        font-size: 16px;
-        margin-bottom: 7px;
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 25px;
     }
     .field {
-        font-size: 16px;
+        font-size: 18px;
     }
     .familyPhoto {
         margin-left: 3.5em;
@@ -244,11 +249,12 @@
         padding: 60px 0px 0px 0px;
     }
     .name {
-        font-size: 16px;
-        margin-bottom: 7px;
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 25px;
     }
     .field {
-        font-size: 16px;
+        font-size: 18px;
     }
     .familyPhoto {
         margin-left: 5em;

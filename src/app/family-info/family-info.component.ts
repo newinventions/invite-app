@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class FamilyInfoComponent {
   myFamilyTitle = "¡Mi Familia!";
   relative1FirstName = "Raymundo Jacobo";
-  relative1Field = "Mi esposo";
+  relative1Field = "- Mi esposo -";
   relative2FirstName = "Yeshua";
-  relative2Field = "Mi hijo";
+  relative2Field = "- Mi hijo -";
   petsName = "Toby & Daisy";
-  petsField = "Mis mascotas";
+  petsField = "- Mis mascotas -";
 }
